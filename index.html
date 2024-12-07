@@ -25,6 +25,9 @@
             var a = false;
             var c = document.querySelectorAll("#wrapper_cec58f805195d86b3057c581cb760602_cl");
             for (var b = 0; b < c.length; ++b) {
+                
+                console.log("click handler assigned to div id wrapper_cec58f805195d86b3057c581cb760602_cl"); // debug
+                
                 c[b].onclick = d;
             }
             function d() {
@@ -36,7 +39,9 @@
                 f.async = true;
                 f.src = "https://et-nd20.itdsmr.com/click?w=c&s=2892&ds=7789_24d0746869a69601486e1b3baf720080&type=b&uq=cec58f805195d86b3057c581cb760602";
                 e.parentNode.insertBefore(f, e);
-                console.log("Executed function d()");
+                
+                console.log("Executed function d()"); // debug
+                
             }
         })();
     </script>
